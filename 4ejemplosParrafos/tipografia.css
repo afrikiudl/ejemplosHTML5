@@ -1,0 +1,29 @@
+/* código CSS */
+
+@font-face {
+    font-family: 'Harabara Hand';
+    src: url('harabarahand.eot#');
+    src: url('harabarahand.woff') format('woff'), url('harabarahand.ttf') format('truetype');
+}
+
+.background {
+    background-color: #FFF;
+    padding: 2em;
+}
+
+.TextoDecorado {
+    font-family: 'Harabara Hand', cursive;
+    text-transform: lowercase;
+    color: #226C8E;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    padding-left: 1em;
+    background-color: #DDD9D6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+.TextoDecorado span {
+    display: inline-block;
+    transform: rotate(-10deg);
+}

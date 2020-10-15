@@ -1,0 +1,16 @@
+/* HOJA CSS */
+
+html {
+    font-size: 100%;
+}
+
+main {
+    max-width: 60rem;
+    /*la medida de ancho del main */
+}
+
+@media (min-width: 60rem) {
+    html {
+        font-size: 150%;
+    }
+}

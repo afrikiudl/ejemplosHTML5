@@ -1,0 +1,28 @@
+/* tamaño de lineas */
+
+html {
+    font-size: 100%;
+}
+
+main {
+    max-width: 60rem;
+    /*la medida de ancho del main */
+}
+
+
+/* tamaño de lineas. Cambia cuando la pantalla se hace más pequeña */
+
+@media (min-width: 50rem) {
+    html {
+        font-size: 200%;
+    }
+}
+
+
+/* internineado */
+
+p {
+    font-size: 1rem;
+    /* the default, so this line not needed */
+    line-height: 1.5;
+}
