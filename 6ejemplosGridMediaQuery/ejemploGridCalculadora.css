@@ -1,0 +1,26 @@
+main {
+    display: grid;
+    font-size: 20em;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* cambia los valores por porcentajes */
+    /*grid-template-columns: 20% 20% 20%; */
+    /* cambia los valores por dos porcentajes a los extremos y un contenido adaptable al medio*/
+    /*grid-template-columns: 20% 1fr 20%; */
+    /* también se puede poner una "función" de repetición */
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-template-columns: repeat(3, 20%);*/
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 3em;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+}
+
+.igual {
+    background-color: green;
+    grid-column: 1 / 4;
+}

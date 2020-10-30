@@ -1,0 +1,18 @@
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    main {
+        background-color: gainsboro;
+    }
+}
+
+@media (min-width: 1001px) {
+    main {
+        background-color: black;
+    }
+}
