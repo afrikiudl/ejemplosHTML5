@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* se define las propiedades del contenedor */
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    background: #FF5C29;
+    flex-wrap: wrap;
+    /* flex-flow  */
+    /* abreviatura de las propiedades flex-directiony flex-wrap, que juntas definen los ejes principal y transversal del contenedor flexible*/
+    justify-content: center;
+    align-items: center;
+    /*align-content: */
+    /*no tiene ningún efecto cuando solo hay una línea de elementos flexibles.*/
+    height: 10%;
+}
+
+
+/* se define el espacio de la caja  */
+
+.caja {
+    background: #00B285;
+    width: 3em;
+    height: 2em;
+    color: #fff;
+    margin: 0.5em;
+    padding: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+}
